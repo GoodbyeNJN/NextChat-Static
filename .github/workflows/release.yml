@@ -71,8 +71,8 @@ jobs:
       - query-metadata
       - build
 
-    # permissions:
-    #   contents: write
+    permissions:
+      contents: write
 
     steps:
       - name: Download artifacts
